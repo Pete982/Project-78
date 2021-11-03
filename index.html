@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title> Family Book </title>
+    <body>
+    <h1> Family Book </h1>
+    <hr> <hr>
+    <img id="family_img" src="https://i.postimg.cc/MKdhy06Z/family.jpg">
+    <h3 id="one">1. Our Family Book </h3>
+    <h3> Nicky Delijani </h3>
+    <img id="family_img" src="https://www.pinclipart.com/picdir/big/35-353068_mother-with-short-brown-hair-clip-art-at.png">
+    <h3> Cormac Estridge </h3>
+    <img id="family_img" src="https://easydrawingguides.com/wp-content/uploads/2021/01/Cartoon-Dad-Step-11.png">
+    <h3> John </h3>
+    <img id="family_img" src="https://q4c3e7d3.stackpathcdn.com/wp-content/uploads/2019/03/Boy2small-1.png">
+    <h3> Joseph Estridge </h3>
+    <img id="family_img" src="https://us.123rf.com/450wm/hermandesign2015/hermandesign20151704/hermandesign2015170400162/75927171-cute-boy-go-to-school.jpg?ver=6">
+    <hr>
+    <script>
+     var names=[
+    "2. My Mom (Nicky Delijani)",
+    "3. My Dad (Cormac Estridge)",
+    "4. My Younger brother (John)",
+    "5. Me (Joseph Estridge)"
+     ];
+     var images=[
+         "2. https://www.pinclipart.com/pindetail/ihxboJ_mother-with-short-brown-hair-clip-art-at/",
+         "3. https://www.pinclipart.com/pindetail/ihxboJ_mother-with-short-brown-hair-clip-art-at/",
+         "4. https://img.washingtonpost.com/rf/image_480w/2010-2019/WashingtonPost/2016/06/09/Production/LocalLiving/Images/fa-leahy16-01.jpg?uuid=xTJCAi52EeabN0KYX2omXA",
+         "5. https://c8.alamy.com/comp/2G9K5NB/cartoon-little-boy-playing-basketball-2G9K5NB.jpg",
+     ];
+     var=1-0;
+     function family(){
+         document.getElementById("one").innerHTML=names[i];
+         document.getElementById("family_img").src=images[i];
+         i++;
+         if(i==4){
+         i=0;
+     }}
+    </script>
+    </body>
+</html> 
